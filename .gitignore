@@ -1,0 +1,34 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment directory
+.venv/
+venv/
+env/
+
+# Ignore system-specific files
+*.pyc
+*.pyo
+.DS_Store
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+
+# Ignore local configuration files
+*.ini
+*.log
+*.cfg
+
+# Ignore dependencies
+# Add additional patterns if you're using other dependency management tools like poetry or pipenv
+# Example for poetry:
+# poetry.lock
+# Example for pipenv:
+# Pipfile
+# Pipfile.lock
+
+# Ignore distribution files
+*.egg-info/
+dist/
+build/
